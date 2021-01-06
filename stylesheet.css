@@ -24,7 +24,10 @@ padding: 50px;}
 .table-dark {width: 500px;
 height: auto;
 margin: auto;
-padding: 50px;}
+padding: 50px !important;}
+
+.thead-dark {background-color: grey !important;
+}
 
 .table-dark th { text-align: center;}
 
@@ -34,7 +37,8 @@ padding: 50px;}
 .box {background-image: url("images/background.jpg");
 margin: auto;
 text-align: center;
-width: 500px;}
+width: 800px;
+margin-top: 20px;}
 
 h4,h5 {text-align: center;
 padding: 25px;}
