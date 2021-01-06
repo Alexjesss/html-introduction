@@ -50,18 +50,18 @@ padding: 50px !important;}
     margin: 20px auto auto;
 }
 
-.bottom-links {display: inline-block;
-list-style: none;
+a {
+
+    list-style: none;
     font-weight: bold;
+    text-decoration: none;
+    color: black;
+
 }
 
-.bottom-links li {display: inline-block;}
+.link {text-align: center;}
 
-.mijn-link {
-margin: 0;}
-
-a {text-decoration: none;
-color: black;}
+.next {float: right;margin-right: 50px;}
 
 .box li {list-style-position: inside;}
 
