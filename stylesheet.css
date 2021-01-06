@@ -20,3 +20,15 @@ padding: 20px;}
 .naam {text-align: center;
 margin: auto;
 padding: 50px;}
+
+.table-dark {width: 500px;
+height: auto;}
+
+.table-dark th { text-align: center;}
+
+.tekst {text-align: center;
+ padding: 15px;}
+
+.box {background-image: url("images/background.jpg");
+margin: auto;
+text-align: center;}
