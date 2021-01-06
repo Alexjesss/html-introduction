@@ -22,7 +22,9 @@ margin: auto;
 padding: 50px;}
 
 .table-dark {width: 500px;
-height: auto;}
+height: auto;
+margin: auto;
+padding: 50px;}
 
 .table-dark th { text-align: center;}
 
@@ -31,4 +33,10 @@ height: auto;}
 
 .box {background-image: url("images/background.jpg");
 margin: auto;
-text-align: center;}
+text-align: center;
+width: 500px;}
+
+h4,h5 {text-align: center;
+padding: 25px;}
+
+p {text-align: center;}
