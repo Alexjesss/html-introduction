@@ -4,12 +4,19 @@ body {margin: 0;
 
 img {
 border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 350px !important;
+    height: 350px !important;
     margin: auto;
     display: block;
 
 }
+
+.container-fluid {padding: 0 !important;}
+
+.content-section {background-color: darkgrey;
+margin: 0;
+padding: 0;
+width: 100%;}
 
 .einstein { font-style: italic;
 color: black;
@@ -37,13 +44,28 @@ padding: 50px !important;}
 .tekst {text-align: center;
  padding: 15px;}
 
-.box {background-image: url("images/background.jpg");
-margin: auto;
-text-align: center;
-width: 800px;
-margin-top: 20px;}
+.box {
+    background-image: url("images/background.jpg");
+    text-align: center;
+    margin: 20px auto auto;
+}
 
-h4,h5 {text-align: center;
+.bottom-links {display: inline-block;
+list-style: none;
+    font-weight: bold;
+}
+
+.bottom-links li {display: inline-block;}
+
+.mijn-link {
+margin: 0;}
+
+a {text-decoration: none;
+color: black;}
+
+.box li {list-style-position: inside;}
+
+h4,h5, h6 {text-align: center;
 padding: 25px;}
 
 p {text-align: center;}
