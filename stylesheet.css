@@ -59,7 +59,8 @@ a {
 
 }
 
-.link {text-align: center;}
+.link {text-align: center;
+margin: 0;}
 
 .next {float: right;margin-right: 50px;}
 
